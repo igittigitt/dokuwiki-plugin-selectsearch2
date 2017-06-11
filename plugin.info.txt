@@ -1,7 +1,7 @@
 base     selectsearch
-author   Frank Schiebel
-email    frank@linuxmuster.net
-date     2012-11-01
+author   Oliver Geisen (adopted from Frank Schiebel)
+email    oliver@denkdose.de
+date     2017-06-11
 name     Selectsearch Plugin
-desc     Provides a dropdown list for common namespaces enhancing the search input, based on, in fact copied from Adran Langs fancysearch plugin - but not fancy ;)
-url      http://www.openschulportfolio.de/
+desc     Provides a dropdown list for common namespaces enhancing the search input. Also renders search results nice.
+url      http://wiki.denkdose.de/dokuwiki/plugins/selectsearch/start
