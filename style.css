@@ -4,3 +4,74 @@ select.selectsearch_namespace {
     background-color: #fefefe;
     color: #888;
 }
+
+/*
+  #dw__selectsearch
+*/
+
+.selectsearch_resultpage {
+    margin-bottom: 0.5em;
+}
+
+/*
+ * do not highlight visited links, because this is a browser feature
+dl.search_results dt a.wikilink1:visited {
+    color: #8AC88A;
+}
+*/
+
+/*
+ * Pagetitle of pages found (link)
+ */
+dl.search_results dt a.wikilink1 {
+    font-size:1.3em;
+}
+dl.search_results dt {
+    margin-bottom: 0px !important;
+}
+
+/*
+ * Namespace of page found
+ */
+dl.search_results div.searchresult_namespace {
+/*    color: #2b73b7; */
+    color: #999;
+    font-size: 1.0em;
+    margin-bottom: .4em;
+}
+
+/*
+ * Preview of page content in search result
+ */
+dl.search_results dd {
+    color: #696969 !important;
+}
+
+
+/*
+ * Pagination
+ */
+.pagination {
+    text-align: center;
+}
+.pagination a,
+.pagination span {
+    color: #46a1f8;
+    padding: 8px 10px;
+    text-decoration: none !important;
+}
+.pagination a.active {
+    background-color: #46a1f8;
+    color: white;
+}
+.pagination .disabled {
+    color:lightgrey;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination .prev-btn {
+    margin-right: 1em;
+}
+
